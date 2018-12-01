@@ -4544,7 +4544,7 @@ button.bg-dark:focus {
   .d-md-table-cell {
     display: table-cell !important; }
   .d-md-flex {
-    display: flex !important; }
+    display: -webkit-box; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
 
@@ -5380,7 +5380,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 4.5rem !important; }
+  padding-top: 18.5rem !important; }
 
 .pr-5,
 .px-5 {
