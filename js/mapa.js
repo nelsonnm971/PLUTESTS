@@ -1,10 +1,10 @@
 function myMap() {
 
-    const myLocation = new google.maps.LatLng(41.158241, -8.628995)
+    const myLocation = new google.maps.LatLng(41.2761237,-8.3227974)
 
     const mapProp = {
         center: myLocation,
-        zoom: 18,
+        zoom: 14,
 		mapTypeId: google.maps.MapTypeId.HYBRID,
 		styles: []
     }
