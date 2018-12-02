@@ -1,5 +1,5 @@
 /*  Smoth scroll - anteriormente estava direto e esteticamente não me agradava*/
-$('a[href*="#"]').on('click', function (e) {
+$('.navbar-nav a[href*="#"]').on('click', function (e) {
 	e.preventDefault();
 
 	$('html, body').animate({
@@ -11,6 +11,6 @@ function openModal(nome) {
 	$('#'+nome).show();
 }
 
-$('.close').click(function(){
-	$('.modal').hide();
-});
+// $('.close').click(function(){
+// 	$('.modal').hide();
+// });
