@@ -109,8 +109,8 @@ button.modal_close {
   width: 52px;
   height: 52px;
   position: absolute;
-  right: 30px;
-  top: 30px;
+  right: -26px;
+  top: -26px;
   -webkit-transition: -webkit-transform 600ms;
   -moz-transition: -moz-transform 600ms;
   -ms-transition: -ms-transform 600ms;
@@ -132,7 +132,7 @@ button.modal_close:hover {
   transition: transform 600ms;
 }
 
-button.modal_close span, span:before, span:after {
+button.modal_close span, .modal_close span:before, .modal_close span:after {
   background: #FFFFFF;
   content: '';
   cursor: pointer;
@@ -177,4 +177,8 @@ button.modal_close span:after {
   bottom: 0;
   background: #000000a6;
   z-index: 99999;
+}
+.carousel-slide {
+  margin: 0 auto;
+  width: 80% !important;
 }
