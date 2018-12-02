@@ -14,6 +14,10 @@
   background: #FCF9F2;
   padding: 50px 100px;
   text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal_overlay {
@@ -163,4 +167,14 @@ button.modal_close span:after {
   -o-transform: translateY(-2px) rotate(-45deg);
   transform: translateY(-2px) rotate(-45deg);
   top: 2px;
+}
+
+.overlay_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000a6;
+  z-index: 99999;
 }
