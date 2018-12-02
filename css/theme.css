@@ -6445,3 +6445,13 @@ html, body {
 .gm-style-iw div {
   overflow: hidden;
 }
+/* Filtro para todos os browsers */
+.imgAnimais:hover {
+  cursor: pointer;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -o-filter: blur(1px);
+  filter: blur(1px);
+  transition: 0.5s;
+}
